@@ -54,7 +54,7 @@ public class weather extends MyBaseActivity {
     private LocationRequest locationRequest;
     public static final int REQUEST_CHECK_SETTING = 1001;
 
-    final String APP_ID = "83724ed1fcdd4b1fb7d3453f4c5f3421";
+    final String APP_ID = "YOUR_API_KEY";
     final String WEATHER_URL = "https://api.openweathermap.org/data/2.5/weather";
     final long MIN_TIME = 5000;
     final float MIN_DISTANCE = 1000;
