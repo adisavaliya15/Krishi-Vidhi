@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.finale">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_logo"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Finale"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".forget_pass"></activity>
+        <activity android:name=".pak_kathol_webview" />
+        <activity android:name=".pak_rokadiya_webview" />
+        <activity android:name=".pak_telibiya_webview" />
+        <activity android:name=".pak_masala_webview" />
+        <activity android:name=".pak_vegetable_webview" />
+        <activity android:name=".pak_fruit_webview" />
+        <activity android:name=".pak_anaj_webview" />
+        <activity android:name=".animal_husbandry_webview" />
+        <activity android:name=".government_help2" />
+        <activity android:name=".pak_fruit" />
+        <activity android:name=".pak_vegetable" />
+        <activity android:name=".pak_masala" />
+        <activity android:name=".pak_anaj" />
+        <activity android:name=".pak_kathol" />
+        <activity android:name=".pak_telibiya" />
+        <activity android:name=".pak_rokadiya" />
+        <activity android:name=".helpline_detail" />
+        <activity android:name=".FarmingTech" />
+        <activity android:name=".utaara" />
+        <activity android:name=".government_helplines" />
+        <activity android:name=".chat_form" />
+        <activity android:name=".gallary" />
+        <activity android:name=".government_schemes" />
+        <activity android:name=".gallary_big_image" />
+        <activity android:name=".weather" />
+        <activity android:name=".animal_husbandry" />
+        <activity android:name=".crop_info" />
+        <activity android:name=".UserProfile" />
+        <activity android:name=".FarminTech2" />
+        <activity android:name=".Rating" />
+        <activity android:name=".Thanks" />
+        <activity android:name=".Mandi_Activity" />
+        <activity android:name=".Mandi_Commodity_Activity" />
+        <activity android:name=".Mandi_Details_Activity" />
+        <activity android:name=".Mandi_District_Activity" />
+        <activity android:name=".Feedback" />
+        <activity
+            android:name=".Dashboard"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".login"
+            android:noHistory="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.full"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".SignUp"
+            android:noHistory="false"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.full"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/Theme.full">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

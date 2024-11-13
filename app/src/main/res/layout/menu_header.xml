@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    android:background="@drawable/gradiant"
+    android:paddingTop="35dp"
+    android:paddingLeft="15dp">
+
+    <TextView
+        android:id="@+id/Slogan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ખેડૂતની પોતાની નીતિ"
+        android:textSize="20sp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="10dp"/>
+
+    <TextView
+        android:id="@+id/app_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="કૃષિ-વિધિ"
+        android:textSize="30sp"
+        android:layout_above="@id/Slogan"
+        android:textColor="@color/black"/>
+
+
+    <ImageView
+        android:layout_width="155dp"
+        android:layout_height="155dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginRight="8dp"
+        android:layout_marginBottom="5dp"
+        android:src="@drawable/mainlogo" />
+
+
+</RelativeLayout>

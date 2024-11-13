@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Feedback">
+
+    <TextView
+        android:id="@+id/suggest"
+        android:layout_width="132dp"
+        android:layout_height="35dp"
+        android:layout_marginStart="4dp"
+        android:layout_marginTop="207dp"
+        android:layout_marginBottom="19dp"
+        android:text="Suggest Us..."
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp" />
+
+    <com.google.android.material.card.MaterialCardView
+        android:id="@+id/sugcard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/suggest"
+        android:layout_centerHorizontal="true"
+        app:cardCornerRadius="8dp"
+        android:layout_centerInParent="true"
+        app:cardElevation="5dp">
+
+        <EditText
+            android:id="@+id/editTextTextPersonName"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:hint="Review here and suggest us.."
+            android:inputType="textMultiLine"
+            android:isScrollContainer="true" />
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit"
+        android:background="@drawable/btnshape"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/sugcard"
+        android:layout_marginTop="25dp" />
+</RelativeLayout>

@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_baseline_home_24"
+            android:title="હોમ" />
+
+        <!-- <item
+             android:id="@+id/Setting"
+             android:icon="@drawable/ic_baseline_home_24"
+             android:title="Settings" />-->
+
+
+    </group>
+
+    <item android:title="પ્રોફાઇલ">
+
+        <menu>
+            <group android:checkableBehavior="single">
+
+                <item
+                    android:id="@+id/nav_profile"
+                    android:icon="@drawable/ic_user"
+                    android:title="પ્રોફાઇલ" />
+                <item
+                    android:id="@+id/nav_logout"
+                    android:icon="@drawable/ic_logout"
+                    android:title="લૉગ આઉટ" />
+
+            </group>
+        </menu>
+
+    </item>
+
+    <item android:title="શેર કરો">
+
+        <menu>
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/nav_share"
+                    android:icon="@drawable/ic_share"
+                    android:title="શેર કરો" />
+                <item
+                    android:id="@+id/nav_rate_us"
+                    android:icon="@drawable/ic_rate"
+                    android:title="Rate Us" />
+
+            </group>
+        </menu>
+
+    </item>
+    <item android:title="અમારા વિશે">
+
+        <menu>
+            <group android:checkableBehavior="none">
+
+                <item
+                    android:id="@+id/madeby"
+                    android:title="Made With   ❤" />
+                <!--<item
+                    android:id="@+id/queto"
+                    android:title="અમારા પ્રિય ખેડુતો માટે" />-->
+
+            </group>
+        </menu>
+
+    </item>
+
+
+</menu>
